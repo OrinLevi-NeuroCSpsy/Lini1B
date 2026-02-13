@@ -140,4 +140,5 @@
 
 ## חומרי עזר
 
-- [דף נוסחאות מורחב](https://github.com/OrinLevi-NeuroCSpsy/LinearAlgebra/blob/main/official_material/linear_algebra1B_formula_sheet-(extended).pdf)
+### לינארית 1ב
+- [דף נוסחאות מורחב](https://github.com/OrinLevi-NeuroCSpsy/LiniB/blob/main/official_material/linear_algebra1B_formula_sheet-(extended).pdf)
