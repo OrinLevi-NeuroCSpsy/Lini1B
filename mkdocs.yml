@@ -70,14 +70,17 @@ nav:
   - בית: index.md
   - לינארית 1ב:
     - סיכומים:
+      - שדות: lini1b/notes/fields.md
+      - מספרים מרוכבים: lini1b/notes/complex_numbers.md
+      - מטריצות: lini1b/notes/matrices.md
       - מערכות משוואות לינאריות: lini1b/notes/linear_systems.md
       - מרחבים וקטוריים: lini1b/notes/vector_spaces.md
       - תלות ואי-תלות לינארית: lini1b/notes/linear_dependence.md
       - מרחבי שורות ועמודות: lini1b/notes/row_column_spaces.md
-      - העתקות לינאריות: lini1b/notes/linear_transformations.md
-      - מטריצות דומות ושינוי בסיס: lini1b/notes/similar_matrices.md
       - דטרמיננטות: lini1b/notes/determinants.md
       - כלל קרמר: lini1b/notes/cramers_rule.md
+      - העתקות לינאריות: lini1b/notes/linear_transformations.md
+      - מטריצות דומות ושינוי בסיס: lini1b/notes/similar_matrices.md
     - תרגול:
       - שאלות ממבחנים: lini1b/practice/exam_questions.md
       - שאלות משיעורי בית: lini1b/practice/hw_questions.md
