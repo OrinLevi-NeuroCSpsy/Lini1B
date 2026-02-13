@@ -281,3 +281,35 @@
   margin: 20px 0;
   border-radius: 12px;
 }
+
+/* === TOC (Table of Contents) - Right Sidebar === */
+
+/* Ensure TOC is visible on larger screens */
+@media screen and (min-width: 60em) {
+  .md-sidebar--secondary {
+    display: block !important;
+    visibility: visible !important;
+  }
+}
+
+/* TOC title styling */
+.md-nav--secondary .md-nav__title {
+  color: var(--pastel-purple);
+  font-weight: bold;
+  padding: 0.6rem 0.8rem;
+}
+
+/* TOC links */
+.md-nav--secondary .md-nav__link {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
+
+.md-nav--secondary .md-nav__link:hover {
+  color: var(--pastel-indigo) !important;
+}
+
+.md-nav--secondary .md-nav__item--active > .md-nav__link {
+  color: var(--pastel-purple) !important;
+  font-weight: 500;
+}
