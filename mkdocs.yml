@@ -89,7 +89,11 @@ nav:
       - טריקים וטכניקות: lini1b/practice/tricks_cheatsheet.md
   - לינארית 2ב:
     - סיכומים:
+      - פולינומים: lini2b/notes/polynomials.md
       - ערכים עצמיים ולכסון: lini2b/notes/eigenvalues.md
       - מכפלה פנימית: lini2b/notes/inner_product.md
+      - אופרטורים צמודים: lini2b/notes/adjoint_operators.md
+      - לכסון אוניטרי ואורתוגונלי: lini2b/notes/unitary_orthogonal.md
+      - מטריצות מוגדרות חיובית: lini2b/notes/positive_definite.md
     - תרגול:
       - בקרוב...: lini2b/practice/coming_soon.md

@@ -151,3 +151,36 @@
 \[ \text{proj}_u(v) = \frac{\langle v, u \rangle}{\langle u, u \rangle} u \]
 
 </div>
+
+---
+
+## מכפלה פנימית מרוכבת
+
+<div class="definition-box" markdown>
+
+**הגדרה:** מכפלה פנימית על מרחב וקטורי $V$ מעל $\mathbb{C}$ היא פונקציה:
+$$\langle \cdot, \cdot \rangle : V \times V \to \mathbb{C}$$
+
+המקיימת:
+
+1. **לינאריות בארגומנט הראשון:**
+   - $\langle u + v, w \rangle = \langle u, w \rangle + \langle v, w \rangle$
+   - $\langle \alpha u, v \rangle = \alpha \langle u, v \rangle$
+
+2. **סימטריה הרמיטית:** $\langle u, v \rangle = \overline{\langle v, u \rangle}$
+
+3. **חיוביות:** $\langle v, v \rangle \geq 0$ (ממשי!), ושוויון אם"ם $v = 0$
+
+</div>
+
+!!! warning "שימו לב"
+    מהסימטריה ההרמיטית נובע:
+    $$\langle u, \alpha v \rangle = \bar{\alpha} \langle u, v \rangle$$
+    (צמוד בארגומנט השני!)
+
+<div class="example-box" markdown>
+
+**המכפלה הסטנדרטית ב-$\mathbb{C}^n$:**
+$$\langle u, v \rangle = \sum_{i=1}^{n} u_i \overline{v_i} = u^* v$$
+
+</div>
